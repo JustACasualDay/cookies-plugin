@@ -2,4 +2,7 @@ name: Cookies
 version: '${version}'
 
 main: at.justacasualday.cookies.Cookies
-api-version: '26.1'
+api-version: '26.1.2'
+commands:
+  jccookies:
+    usage: /jccokies help

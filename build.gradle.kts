@@ -14,7 +14,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("org.spigotmc:spigot:$minecraftVersion-R0.1-SNAPSHOT")
+    compileOnly("org.spigotmc:spigot-api:$minecraftVersion-R0.1-SNAPSHOT")
     implementation("at.justacasualday:JustACasualAPI:$minecraftVersion-SNAPSHOT")
 }
 
