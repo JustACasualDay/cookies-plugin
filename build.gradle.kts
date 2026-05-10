@@ -16,6 +16,7 @@ repositories {
 dependencies {
     compileOnly("org.spigotmc:spigot-api:$minecraftVersion-R0.1-SNAPSHOT")
     implementation("at.justacasualday:JustACasualAPI:$minecraftVersion-SNAPSHOT")
+    implementation("org.incendo:cloud-paper:2.0.0-beta.10")
 }
 
 java {

@@ -2,6 +2,7 @@ package at.justacasualday.commands;
 
 import at.justacasualday.api.CookiesCommand;
 import at.justacasualday.cookies.Cookies;
+import at.justacasualday.map.Region;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -30,7 +31,6 @@ public class RootCommand implements CommandExecutor, TabCompleter {
                     arg.removeFirst();
                     subCommand.onCommand(sender, command, label, arg);
                 }
-                return false;
             }
         }
 
